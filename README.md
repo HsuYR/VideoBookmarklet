@@ -1,1 +1,9 @@
-# VideoBookmarklet
+# 可是我不想在安裝軟體了！
+
+首先，把拖放 [快一點](javascript:(function(){document.getElementsByTagName('video')[0].playbackRate+=0.1;})()) 和 [慢一點](javascript:(function(){document.getElementsByTagName('video')[0].playbackRate-=0.1;})()) 到書籤列上。接著，把想要看的影片下載到自己電腦裡後，將檔案從檔案總管拖曳到瀏覽器中。最後，在播放時按下書籤列上 **快一點**、**慢一點**來調整到最適合你的播放速度！
+
+註：每次按下**快一點**和**慢一點**分別會增加和減少 0.1x 播放速度。
+
+### 為什麼我的影片沒有聲音？
+
+可能是因為用瀏覽器播放時速度太快 (>3.9x) 或太慢 (<0.5x) 時會導致播不出聲音。所以如果發現按下 **快一點** 時影片聲音消失了，這時多按幾下 **慢一點** 聲音就會回來了喔！
