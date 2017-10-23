@@ -19,6 +19,17 @@
     由於瀏覽器播放速度太快（&gt;3.9x）或太慢（&lt;0.5x）時沒辦法播不出聲音。
     所以如果發現按下<b>快一點</b>後影片聲音消失了，這時多按幾下<b>慢一點</b>聲音就會回來了喔！
   </p>
+  
+  <a href="javascript:(function(){
+  var table = document.getElementsByClassName("font01");
+  for(i=1; i < table.length; i++) {
+    var td = table[i];
+    var name = i;
+    console.log(td.getElementsByTagName("img")[0]);
+    var image = td.getElementsByTagName("img")[0];
+    window.open(image.src);
+  }
+})()">e04</a>
 
   <style>
   /**
