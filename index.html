@@ -21,15 +21,11 @@
   </p>
   
   <a href="javascript:(function(){
-             var table = document.getElementsByClassName('font01');
-             for(i = 1; i < table.length; i++) {
-               var td = table[i];
-               var name = i;
-               console.log(td.getElementsByTagName('img')[0]);
-               var image = td.getElementsByTagName('img')[0];
-               window.open(image.src);
-             }
-           })()"
+  var images=document.getElementsByTagName('img');
+  for(i=0;i<images.length;i++){
+    window.open(images[i].src);
+  }
+}())"
   >e04</a>
 
   <style>
